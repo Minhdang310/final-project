@@ -34,9 +34,6 @@ body{
 }
 
 
-
-
-
 /*--------------------------- watch film -------------------------------*/
 a{
     color: white !important;
@@ -273,4 +270,9 @@ img {
 #signUpForm .form-control {
     background-color: #323232;
     color: white;
+}
+
+/*comments*/
+.comments-field{
+    background-color: white!important;
 }
