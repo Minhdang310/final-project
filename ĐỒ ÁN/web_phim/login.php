@@ -44,6 +44,7 @@
                 <script>
                     alert('Password failure');
                 </script>
+                <a href="./index.php">vui lòng đăng nhập lại</a>
                 <?php
             }
 		}
