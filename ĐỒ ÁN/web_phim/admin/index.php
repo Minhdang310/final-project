@@ -27,8 +27,8 @@
         ?>
 
         <div id="page-wrapper" class="text-center" style="margin: auto">
-            <img src="asset/images/welcom_admin.png" alt="welcome admin" class="rounded mx-auto d-block">
-            <h2>Welcome Admin</h2>
+            <img src="./asset/images/admin.jpg" alt="welcome admin" class="rounded mx-auto d-block">
+            <h2>Dảk Admin</h2>
             <p>
                 You have all right in this system, such as Post film, edit film and add, edit, delete user,....
             </p>

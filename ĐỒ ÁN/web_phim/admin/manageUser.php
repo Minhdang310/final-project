@@ -59,7 +59,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                <?php while($row = mysqli_fetch_assoc($result)) {
+                                <?php while($row = mysqli_fetch_array($result)) {
                                     if ($row["usertype"] == 20){
                                     ?>
                                     <tr>

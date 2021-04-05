@@ -92,7 +92,7 @@
       $query = mysqli_query($link,$sql);
       while($r=mysqli_fetch_assoc($query)){
     ?>
-      <li class=""><a><?php echo $r['name']; ?></a>
+      <li class="option"><a><?php echo $r['name']; ?></a>
         <ul class="sub-menu" style="width: 260px; display: none;">
           <?php
             $handle = $r['handle'];
