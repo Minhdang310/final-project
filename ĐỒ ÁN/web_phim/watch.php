@@ -84,9 +84,9 @@ label.star:before {
             </div>
             <div class="share">
                 <div class="row">
-                    <button type="button" class="btn btn-secondary">
+                    <a href="wish-list.php"><button type="button" class="btn btn-secondary">
                         <img src="images/icons/plus.png" alt="Share" width="20px"> Thêm vào hộp
-                    </button>
+                    </button></a>
                     <button type="button" class="btn btn-primary share_fb">
                         <img src="images/icons/facebook_square_lightblue-512.png" alt="Share" width="20px"> Share
                     </button>
