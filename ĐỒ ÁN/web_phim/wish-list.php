@@ -42,6 +42,8 @@
             <button id="trending-movies" class="btn btn-outline-success" type="button">What's Trending?</button>
 
             <button id="user-favorites" class="btn btn-outline-success" type="button">Latest User Wishes</button>
+
+            <a href="./index.php"><button id="go-to-homepage" class="btn btn-outline-success" type="button">HOMEPAGE</button></a>
         </form>
     </nav>
 
@@ -70,7 +72,6 @@
 
     <!-- Script -->
     <script type="text/javascript" src="js/app.js"></script>
-
 </body>
 
 </html>
