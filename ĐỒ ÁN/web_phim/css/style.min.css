@@ -618,7 +618,7 @@ img.captcha-image {
 
 #nav .sub-menu li a, #nav2 {
   height: 30px;
-  line-height: 30px
+  line-height: 30px;
 }
 
 #sign .logged .logout a:hover {
@@ -657,7 +657,7 @@ img.captcha-image {
 }
 
 #nav2, #nav2 .title a {
-  color: #747474
+  color: #747474;
 }
 
 #nav li.active a {
@@ -712,13 +712,13 @@ img.captcha-image {
 }
 
 #nav2 {
-  margin-bottom: 5px
+  margin-bottom: 5px;
 }
 
 #nav2 .title {
   font-size: 12px;
   display: inline-block;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #body-wrap, #movie-hot {

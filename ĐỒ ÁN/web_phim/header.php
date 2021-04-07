@@ -120,5 +120,5 @@
 </div>
 <div id="nav2">
   <div class="container">
-    <h2 class="title">Xem phim online chất lượng cao</h2></div>
+    <a href="wish-list.php"><h3>Thêm film vào danh mục yêu thích!</h3></a></div>
 </div>
