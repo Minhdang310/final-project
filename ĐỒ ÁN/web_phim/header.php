@@ -1,6 +1,6 @@
 <div id="header">
   <div class="container">
-    <a href="?mod=home" title="Xem Phim"><img id="logo" src="images/logo.png"></a>
+ <a href="?mod=home" title="Xem Phim"><img id="logo" src="images/logo.png"></a>
     <div id="search">
       <form method="post" action="?mod=search">
         <input type="text" autocomplete="off" name="kw" placeholder="Tìm phim..." class="keyword">
@@ -92,7 +92,7 @@
       $query = mysqli_query($link,$sql);
       while($r=mysqli_fetch_assoc($query)){
     ?>
-      <li class="option"><a><?php echo $r['name']; ?></a>
+      <li class=""><a><?php echo $r['name']; ?></a>
         <ul class="sub-menu" style="width: 260px; display: none;">
           <?php
             $handle = $r['handle'];
@@ -120,5 +120,5 @@
 </div>
 <div id="nav2">
   <div class="container">
-    <a href="wish-list.php"><h3>Thêm film vào danh mục yêu thích!</h3></a></div>
+        <a href="wish-list.php"><h3>Thêm film vào danh mục yêu thích!</h3></a></div>
 </div>

@@ -139,18 +139,14 @@ label.star:before {
             </div>
             <div class="col-sm-9">
                 <div class="row">
-                  <?php
-                    $query = mysqli_query($link, "select * from `episode` where `film_id` = '$film_id'");
-                    while($r4 = mysqli_fetch_array($query)){
-                  ?>
-                    <a href="?mod=watch&&film_id=<?php echo $r4['film_id'] ?> && episode=<?php echo $r4['episode'] ?>" title="<?php echo $r4['name'] ?>" class="button btn-secondary seat"><?php echo $r4['episode_name'] ?></a>
-                  <?php } ?>
+                    <a href="#"> <button class="button btn-secondary seat">SERVER 1</button></a>
+                    <a href="#"> <button class="button btn-secondary seat">SERVER 2</button></a>
                 </div>
             </div>
         </div>           
     </div>
 
-<div class="comments-field">
+<div class="comments-field" style="background-color: white;">
     <div class="fb-comments" data-href="http://localhost/php_start/%C4%90%E1%BB%92%20%C3%81N/web_phim/web_phim/?mod=watch&amp;film_id=116&amp;episode=1" data-width="100%" data-numposts="5"></div>
 </div>
 </div>

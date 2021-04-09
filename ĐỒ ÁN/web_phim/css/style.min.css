@@ -603,7 +603,7 @@ img.captcha-image {
 
 #nav, #nav li a {
   background-position: 0 -123px;
-  height: 39px
+  height: 50px;
 }
 
 #nav ul li:hover ul.sub-menu {
@@ -617,7 +617,7 @@ img.captcha-image {
 }
 
 #nav .sub-menu li a, #nav2 {
-  height: 30px;
+  height: 50px;
   line-height: 30px;
 }
 
