@@ -316,8 +316,7 @@
     }
 
   </style>
-
-      <h3 style="font-size:30px;text-align:center; background-color: black;margin-bottom:0px;margin-top:0px;">Đăng kí thành viên</h3>
+      <h3 style="font-size:30px;text-align:center; background-color: black;margin-bottom:50px;margin-top:50px;">Đăng kí thành viên</h3>
 
       <div class="form-update">
         <form method="post" id="form-update" name="form-update" class="form-horizontal" action="" role="form" style="
